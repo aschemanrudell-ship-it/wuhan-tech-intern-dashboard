@@ -1,0 +1,872 @@
+{
+  "generated_from": {
+    "智联招聘": 172,
+    "实习僧": 68,
+    "猎聘": 245,
+    "BOSS直聘": 2528
+  },
+  "boss_meta": [
+    {
+      "file": "boss_wuhan_ai.json",
+      "keyword": "人工智能实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_ai_api.json",
+      "keyword": "人工智能实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_algo.json",
+      "keyword": "算法实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_algo_api.json",
+      "keyword": "算法实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_backend.json",
+      "keyword": "后端开发实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_backend_api.json",
+      "keyword": "后端开发实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_bigdata_api.json",
+      "keyword": "大数据实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_cpp_api.json",
+      "keyword": "C++实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_data.json",
+      "keyword": "数据分析实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_data_api.json",
+      "keyword": "数据分析实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_dev.json",
+      "keyword": "软件开发实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_dev_api.json",
+      "keyword": "软件开发实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_embedded_api.json",
+      "keyword": "嵌入式实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_front.json",
+      "keyword": "前端开发实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_front_api.json",
+      "keyword": "前端开发实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_go_api.json",
+      "keyword": "Golang实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_intern.json",
+      "keyword": "实习生",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_intern_api.json",
+      "keyword": "实习生",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_java.json",
+      "keyword": "Java实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_java_api.json",
+      "keyword": "Java实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_java_dev.json",
+      "keyword": "Java开发",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_java_dev_api.json",
+      "keyword": "Java开发",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_ops_api.json",
+      "keyword": "运维实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_product_api.json",
+      "keyword": "产品实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_python.json",
+      "keyword": "Python实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_python_api.json",
+      "keyword": "Python实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_python_dev.json",
+      "keyword": "Python开发",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_python_dev_api.json",
+      "keyword": "Python开发",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_security_api.json",
+      "keyword": "安全实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_test.json",
+      "keyword": "测试实习",
+      "cards": 30,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_test_api.json",
+      "keyword": "测试实习",
+      "cards": 0,
+      "salary_visible": false
+    },
+    {
+      "file": "boss_wuhan_web_api.json",
+      "keyword": "Web前端实习",
+      "cards": 0,
+      "salary_visible": false
+    }
+  ],
+  "boss_keywords_collected": [
+    "C++实习",
+    "Golang实习",
+    "Java实习",
+    "Java开发",
+    "Python实习",
+    "Python开发",
+    "Web前端实习",
+    "产品实习",
+    "人工智能实习",
+    "前端开发实习",
+    "后端开发实习",
+    "大数据实习",
+    "安全实习",
+    "实习生",
+    "嵌入式实习",
+    "数据分析实习",
+    "测试实习",
+    "算法实习",
+    "软件开发实习",
+    "运维实习"
+  ],
+  "boss_coverage_note": "BOSS直聘本轮完成 Python实习 / Java实习 / 实习生 / 软件开发实习 四组关键词的全量分页；其余关键词触发站点安全验证，待限流解除后补抓。",
+  "platform_inventory": {
+    "BOSS直聘": [
+      {
+        "keyword": "Python实习",
+        "resCount": 450,
+        "collected": 15,
+        "source": "登录态会话验证运行（scripts/verify_boss_session.py，2026-10-12 14:03）"
+      },
+      {
+        "keyword": "Java实习",
+        "resCount": 335,
+        "collected": 15,
+        "source": "全量抓取运行日志（scripts/collect_boss_api.py，2026-10-12 14:05）"
+      },
+      {
+        "keyword": "软件开发实习",
+        "resCount": 200,
+        "collected": 15,
+        "source": "全量抓取运行日志：翻到第 5 页返回 hasMore=false，150 条已取满，估算 resCount≈200"
+      },
+      {
+        "keyword": "实习生",
+        "resCount": 199,
+        "collected": 15,
+        "source": "全量抓取运行日志（scripts/collect_boss_api.py，2026-10-12 14:06）"
+      }
+    ],
+    "note": "resCount = 该关键词在武汉的接口返回总数（同平台同口径，可直接对比）；collected = 本次实际抓取量。"
+  },
+  "total_rows": 3013,
+  "wuhan_rows": 2759,
+  "wuhan_interns": 1096,
+  "wuhan_tech_interns": 850,
+  "wuhan_nontech_interns": 246,
+  "intern_salary_known": 618,
+  "salary_scope": {
+    "daily": 412,
+    "monthly_k": 206,
+    "no_salary": 427
+  },
+  "salary_by_source": {
+    "BOSS直聘": {
+      "positions": 953,
+      "with_salary": 526,
+      "daily": 310,
+      "monthly_k": 206
+    },
+    "智联招聘": {
+      "positions": 87,
+      "with_salary": 87,
+      "daily": 52,
+      "monthly_k": 0
+    },
+    "实习僧": {
+      "positions": 50,
+      "with_salary": 50,
+      "daily": 49,
+      "monthly_k": 0
+    },
+    "猎聘": {
+      "positions": 6,
+      "with_salary": 6,
+      "daily": 1,
+      "monthly_k": 0
+    }
+  },
+  "salary_stats": {
+    "python": {
+      "n": 74,
+      "min": 75.0,
+      "p25": 140.0,
+      "median": 175.0,
+      "p75": 250.0,
+      "max": 1494.2,
+      "mean": 238.3
+    },
+    "java": {
+      "n": 99,
+      "min": 70.0,
+      "p25": 125.0,
+      "median": 175.0,
+      "p75": 225.0,
+      "max": 942.5,
+      "mean": 189.1
+    },
+    "all_interns": {
+      "n": 499,
+      "min": 69.0,
+      "p25": 125.0,
+      "median": 160.9,
+      "p75": 220.0,
+      "max": 1494.2,
+      "mean": 190.8
+    },
+    "note": "统计口径：实习岗本人报价；「元/天」直接采用，「K/月」按 21.75 个工作日折算为日薪；不含‘元/月’社招口径。"
+  },
+  "python": {
+    "count": 154,
+    "salary": {
+      "n": 74,
+      "min": 75.0,
+      "p25": 140.0,
+      "median": 175.0,
+      "p75": 250.0,
+      "max": 1494.2,
+      "mean": 238.3
+    }
+  },
+  "java": {
+    "count": 175,
+    "salary": {
+      "n": 99,
+      "min": 70.0,
+      "p25": 125.0,
+      "median": 175.0,
+      "p75": 225.0,
+      "max": 942.5,
+      "mean": 189.1
+    }
+  },
+  "both": 54,
+  "by_source": {
+    "智联招聘": 87,
+    "猎聘": 6,
+    "实习僧": 50,
+    "BOSS直聘": 953
+  },
+  "by_degree": {
+    "本科": 647,
+    "大专": 163,
+    "硕士": 136,
+    "不限": 119,
+    "博士": 16,
+    "中专/高中": 15
+  },
+  "stack_counts": {
+    "算法/AI": 209,
+    "Java": 175,
+    "Python": 154,
+    "C/C++": 145,
+    "前端": 137,
+    "数据分析": 91,
+    "测试": 75,
+    "运维/云": 61,
+    "大数据": 52,
+    "网络安全": 37,
+    "Go": 33,
+    "数据标注": 14,
+    ".NET/C#": 10,
+    "Android/iOS": 10,
+    "PHP": 6
+  },
+  "salary_hist_all": [
+    {
+      "name": "≤100",
+      "count": 29
+    },
+    {
+      "name": "100-150",
+      "count": 181
+    },
+    {
+      "name": "150-200",
+      "count": 147
+    },
+    {
+      "name": "200-300",
+      "count": 102
+    },
+    {
+      "name": ">300",
+      "count": 40
+    }
+  ],
+  "salary_hist_by_stack": {
+    "Python": [
+      {
+        "name": "≤100",
+        "count": 5
+      },
+      {
+        "name": "100-150",
+        "count": 21
+      },
+      {
+        "name": "150-200",
+        "count": 19
+      },
+      {
+        "name": "200-300",
+        "count": 16
+      },
+      {
+        "name": ">300",
+        "count": 13
+      }
+    ],
+    "Java": [
+      {
+        "name": "≤100",
+        "count": 6
+      },
+      {
+        "name": "100-150",
+        "count": 29
+      },
+      {
+        "name": "150-200",
+        "count": 37
+      },
+      {
+        "name": "200-300",
+        "count": 21
+      },
+      {
+        "name": ">300",
+        "count": 6
+      }
+    ],
+    "算法/AI": [
+      {
+        "name": "≤100",
+        "count": 4
+      },
+      {
+        "name": "100-150",
+        "count": 25
+      },
+      {
+        "name": "150-200",
+        "count": 31
+      },
+      {
+        "name": "200-300",
+        "count": 32
+      },
+      {
+        "name": ">300",
+        "count": 13
+      }
+    ],
+    "前端": [
+      {
+        "name": "≤100",
+        "count": 4
+      },
+      {
+        "name": "100-150",
+        "count": 20
+      },
+      {
+        "name": "150-200",
+        "count": 28
+      },
+      {
+        "name": "200-300",
+        "count": 13
+      },
+      {
+        "name": ">300",
+        "count": 4
+      }
+    ]
+  },
+  "company_panel": {
+    "profiles_collected": 84,
+    "companies_hiring_interns": 608,
+    "total_open_jobs": 167169
+  },
+  "top_tags": [
+    [
+      "Java",
+      143
+    ],
+    [
+      "Python",
+      126
+    ],
+    [
+      "MySQL",
+      114
+    ],
+    [
+      "本科",
+      91
+    ],
+    [
+      "Spring",
+      75
+    ],
+    [
+      "计算机相关专业",
+      70
+    ],
+    [
+      "C++",
+      69
+    ],
+    [
+      "不接受居家办公",
+      61
+    ],
+    [
+      "JavaScript",
+      58
+    ],
+    [
+      "Redis",
+      43
+    ],
+    [
+      "Vue",
+      43
+    ],
+    [
+      "CSS",
+      40
+    ],
+    [
+      "SpringCloud",
+      38
+    ],
+    [
+      "C",
+      36
+    ],
+    [
+      "前端开发经验",
+      36
+    ],
+    [
+      "C/C++",
+      35
+    ],
+    [
+      "计算机/软件工程相关专业",
+      32
+    ],
+    [
+      "MyBatis",
+      30
+    ],
+    [
+      "HTML",
+      29
+    ],
+    [
+      "React",
+      29
+    ],
+    [
+      "Oracle",
+      26
+    ],
+    [
+      "办公室坐班",
+      24
+    ],
+    [
+      "Golang",
+      21
+    ],
+    [
+      "通信相关专业",
+      21
+    ],
+    [
+      "前端开发",
+      21
+    ],
+    [
+      "不含销售的客服工作",
+      21
+    ],
+    [
+      "深度学习",
+      20
+    ],
+    [
+      "Docker",
+      20
+    ],
+    [
+      "Node.js",
+      20
+    ],
+    [
+      "HTML5",
+      20
+    ]
+  ],
+  "top_skills": [
+    [
+      "Java",
+      140
+    ],
+    [
+      "Python",
+      118
+    ],
+    [
+      "MySQL",
+      108
+    ],
+    [
+      "Spring",
+      70
+    ],
+    [
+      "C++",
+      64
+    ],
+    [
+      "JavaScript",
+      53
+    ],
+    [
+      "Redis",
+      43
+    ],
+    [
+      "Vue",
+      43
+    ],
+    [
+      "CSS",
+      39
+    ],
+    [
+      "SpringCloud",
+      38
+    ],
+    [
+      "C",
+      36
+    ],
+    [
+      "C/C++",
+      34
+    ],
+    [
+      "MyBatis",
+      30
+    ],
+    [
+      "HTML",
+      29
+    ],
+    [
+      "React",
+      29
+    ],
+    [
+      "Oracle",
+      25
+    ],
+    [
+      "Golang",
+      21
+    ],
+    [
+      "前端开发",
+      21
+    ],
+    [
+      "Docker",
+      20
+    ],
+    [
+      "Node.js",
+      20
+    ],
+    [
+      "HTML5",
+      20
+    ],
+    [
+      "深度学习",
+      18
+    ],
+    [
+      "正常工作制",
+      18
+    ],
+    [
+      "QT",
+      16
+    ],
+    [
+      "大模型算法",
+      15
+    ],
+    [
+      "参加算法相关竞赛/获奖",
+      14
+    ],
+    [
+      "SQL",
+      14
+    ],
+    [
+      "发表算法相关优秀论文",
+      13
+    ],
+    [
+      "全栈无侧重",
+      13
+    ],
+    [
+      "机器学习",
+      12
+    ]
+  ],
+  "top_companies": [
+    [
+      "小米",
+      14
+    ],
+    [
+      "华为技术有限公司",
+      13
+    ],
+    [
+      "华为",
+      12
+    ],
+    [
+      "金山云",
+      9
+    ],
+    [
+      "精臣",
+      9
+    ],
+    [
+      "绿盟科技",
+      9
+    ],
+    [
+      "数字政通",
+      8
+    ],
+    [
+      "泰康在线",
+      7
+    ],
+    [
+      "华为云计算",
+      7
+    ],
+    [
+      "联产研创",
+      6
+    ],
+    [
+      "岚图汽车",
+      6
+    ],
+    [
+      "开目信息股份",
+      6
+    ],
+    [
+      "阿里巴巴集团",
+      6
+    ],
+    [
+      "中望软件",
+      5
+    ],
+    [
+      "京东集团",
+      5
+    ]
+  ],
+  "top_industries": [
+    [
+      "计算机软件",
+      194
+    ],
+    [
+      "互联网",
+      171
+    ],
+    [
+      "人工智能",
+      43
+    ],
+    [
+      "电子商务",
+      30
+    ],
+    [
+      "信息安全",
+      24
+    ],
+    [
+      "互联网/游戏/软件",
+      23
+    ],
+    [
+      "计算机服务",
+      21
+    ],
+    [
+      "软件/IT服务",
+      20
+    ],
+    [
+      "智能硬件",
+      18
+    ],
+    [
+      "医疗健康",
+      17
+    ],
+    [
+      "通信/网络设备",
+      15
+    ],
+    [
+      "互联网金融",
+      13
+    ]
+  ],
+  "districts": {
+    "洪山区": 350,
+    "江夏区": 269,
+    "武昌区": 111,
+    "江汉区": 39,
+    "汉阳区": 30,
+    "江岸区": 27,
+    "东西湖区": 19,
+    "蔡甸区": 15,
+    "硚口区": 13,
+    "青山区": 7,
+    "新洲区": 6,
+    "黄陂区": 4
+  },
+  "data_notes": [
+    "智联招聘：武汉 + 关键词(实习生/Python实习/Java实习/后端开发实习/软件开发实习/测试实习) 服务端渲染结果，含明码薪资。",
+    "BOSS直聘：scrapling StealthyFetcher（反检测 Chromium）人工登录一次后、由页面自身的 joblist 接口逐页取数；已入库 418 条武汉实习岗，其中 291 条带薪资（152 条元/天 + 133 条 K/月），其余为早期卡片数据（无薪资字段）。",
+    "实习僧：武汉实习卡片（Python/Java/算法/人工智能/开发/软件/研发/测试/数据 等 12 组关键词），薪资为反爬字体，已按字形解码还原。",
+    "猎聘：武汉搜索关键词返回结果中属于武汉的岗位（其余为全国岗位，已剔除）。",
+    "统计口径：武汉 + 实习 + 剔除教育培训类岗位（讲师/助教/课程研发）；算法方向含大模型、视觉、NLP、智能体岗位。",
+    "薪资分析口径：实习岗本人报价，「元/天」直接采用、「K/月」按 21.75 个工作日折算，「元/月」社招口径不计入；BOSS直聘的薪资来自登录态接口。"
+  ]
+}

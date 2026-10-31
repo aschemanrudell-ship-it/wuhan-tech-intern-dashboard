@@ -6,8 +6,13 @@ build-backend = "setuptools.build_meta"
 name = "jobdataplatform"
 version = "0.1.0"
 description = "Turn Wuhan job-posting snapshots into a Django + MySQL data service"
+readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "Django>=6.0",
+    "PyMySQL>=1.1",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

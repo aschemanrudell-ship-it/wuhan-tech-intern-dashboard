@@ -1,0 +1,106 @@
+{
+  "generated_from": "data/boss_inventory.json + data/zhilian_meta.json + data/shixiseng_positions.jsonl",
+  "note": "resCount 是平台自己报的结果总数，不随我们翻了几页变化，也不会被关键词把其他语言岗位混进来；最适合做 Python/Java 需求对比。",
+  "rows": [
+    {
+      "platform": "BOSS直聘",
+      "keyword": "Python实习",
+      "resCount": 450,
+      "collected": 15,
+      "method": "接口 resCount（该词在武汉的结果总数）"
+    },
+    {
+      "platform": "BOSS直聘",
+      "keyword": "Java实习",
+      "resCount": 335,
+      "collected": 15,
+      "method": "接口 resCount（该词在武汉的结果总数）"
+    },
+    {
+      "platform": "BOSS直聘",
+      "keyword": "软件开发实习",
+      "resCount": 200,
+      "collected": 15,
+      "method": "接口 resCount（该词在武汉的结果总数）"
+    },
+    {
+      "platform": "BOSS直聘",
+      "keyword": "实习生",
+      "resCount": 199,
+      "collected": 15,
+      "method": "接口 resCount（该词在武汉的结果总数）"
+    },
+    {
+      "platform": "智联招聘",
+      "keyword": "Python实习",
+      "resCount": 37,
+      "method": "页面 positionCount"
+    },
+    {
+      "platform": "智联招聘",
+      "keyword": "Java实习",
+      "resCount": 20,
+      "method": "页面 positionCount"
+    },
+    {
+      "platform": "智联招聘",
+      "keyword": "实习生",
+      "resCount": 100,
+      "method": "页面 positionCount"
+    },
+    {
+      "platform": "智联招聘",
+      "keyword": "软件开发实习",
+      "resCount": 54,
+      "method": "页面 positionCount"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "数据",
+      "resCount": 13,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "Python",
+      "resCount": 11,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "人工智能",
+      "resCount": 10,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "测试",
+      "resCount": 8,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "开发",
+      "resCount": 7,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "研发",
+      "resCount": 7,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "算法",
+      "resCount": 5,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    },
+    {
+      "platform": "实习僧",
+      "keyword": "Java",
+      "resCount": 4,
+      "method": "武汉列表页首屏召回卡片数（无法读取总量）"
+    }
+  ]
+}

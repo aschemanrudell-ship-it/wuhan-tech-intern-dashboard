@@ -1,0 +1,347 @@
+{
+  "note": "实习=本次抓到的实习岗（可比薪资样本）；正式工=BOSS直聘武汉同方向社招/校招岗位（ft_* 关键词，含经验轴抽样）。月薪口径：正式工取 K/月 中位；实习按日薪×21.75 折算，用于观察「实习入口 → 正式岗」的成长空间。",
+  "rows": [
+    {
+      "direction": "Python",
+      "intern": {
+        "postings": 111,
+        "daily": {
+          "n": 60,
+          "p25": 137.9,
+          "median": 172.5,
+          "p75": 206.9,
+          "max": 942.5
+        },
+        "month": {
+          "n": 72,
+          "p25": 3262,
+          "median": 3806,
+          "p75": 5438,
+          "max": 30500
+        },
+        "keywords": [
+          "boss_wuhan_backend",
+          "boss_wuhan_python",
+          "boss_wuhan_python_dev"
+        ]
+      },
+      "fulltime": {
+        "postings": 110,
+        "month": {
+          "n": 72,
+          "p25": 10500,
+          "median": 12500,
+          "p75": 16500,
+          "max": 30000
+        },
+        "by_experience": {
+          "3-5年": 39,
+          "1-3年": 25,
+          "经验不限": 18,
+          "5-10年": 14,
+          "1年以内": 9,
+          "不限": 3
+        },
+        "keywords": [
+          "Python开发"
+        ]
+      }
+    },
+    {
+      "direction": "Java",
+      "intern": {
+        "postings": 144,
+        "daily": {
+          "n": 85,
+          "p25": 135.0,
+          "median": 170.0,
+          "p75": 206.9,
+          "max": 942.5
+        },
+        "month": {
+          "n": 107,
+          "p25": 3262,
+          "median": 3806,
+          "p75": 5500,
+          "max": 30500
+        },
+        "keywords": [
+          "boss_wuhan_backend",
+          "boss_wuhan_java",
+          "boss_wuhan_java_dev"
+        ]
+      },
+      "fulltime": {
+        "postings": 160,
+        "month": {
+          "n": 117,
+          "p25": 9000,
+          "median": 10000,
+          "p75": 12500,
+          "max": 30000
+        },
+        "by_experience": {
+          "3-5年": 50,
+          "1-3年": 43,
+          "5-10年": 25,
+          "经验不限": 22,
+          "1年以内": 9,
+          "不限": 8
+        },
+        "keywords": [
+          "Java开发"
+        ]
+      }
+    },
+    {
+      "direction": "前端",
+      "intern": {
+        "postings": 90,
+        "daily": {
+          "n": 41,
+          "p25": 135.0,
+          "median": 165.0,
+          "p75": 195.0,
+          "max": 500.0
+        },
+        "month": {
+          "n": 49,
+          "p25": 3262,
+          "median": 3806,
+          "p75": 4894,
+          "max": 22500
+        },
+        "keywords": [
+          "boss_wuhan_front",
+          "boss_wuhan_web"
+        ]
+      },
+      "fulltime": {
+        "postings": 75,
+        "month": {
+          "n": 74,
+          "p25": 8500,
+          "median": 10500,
+          "p75": 12500,
+          "max": 25000
+        },
+        "by_experience": {
+          "3-5年": 32,
+          "1-3年": 20,
+          "5-10年": 15,
+          "经验不限": 5,
+          "在校/应届": 1,
+          "10年以上": 1
+        },
+        "keywords": [
+          "前端开发"
+        ]
+      }
+    },
+    {
+      "direction": "算法/AI",
+      "intern": {
+        "postings": 176,
+        "daily": {
+          "n": 87,
+          "p25": 160.9,
+          "median": 206.9,
+          "p75": 270.0,
+          "max": 1034.5
+        },
+        "month": {
+          "n": 98,
+          "p25": 3806,
+          "median": 4894,
+          "p75": 6634,
+          "max": 45000
+        },
+        "keywords": [
+          "boss_wuhan_ai",
+          "boss_wuhan_algo"
+        ]
+      },
+      "fulltime": {
+        "postings": 101,
+        "month": {
+          "n": 98,
+          "p25": 19500,
+          "median": 25000,
+          "p75": 30000,
+          "max": 55000
+        },
+        "by_experience": {
+          "3-5年": 40,
+          "1-3年": 26,
+          "经验不限": 12,
+          "5-10年": 12,
+          "在校/应届": 8,
+          "1年以内": 2
+        },
+        "keywords": [
+          "算法工程师"
+        ]
+      }
+    },
+    {
+      "direction": "测试",
+      "intern": {
+        "postings": 36,
+        "daily": {
+          "n": 0
+        },
+        "month": {
+          "n": 0
+        },
+        "keywords": [
+          "boss_wuhan_test"
+        ]
+      },
+      "fulltime": {
+        "postings": 116,
+        "month": {
+          "n": 116,
+          "p25": 8000,
+          "median": 9500,
+          "p75": 11000,
+          "max": 22500
+        },
+        "by_experience": {
+          "3-5年": 47,
+          "1-3年": 34,
+          "5-10年": 16,
+          "经验不限": 12,
+          "在校/应届": 4,
+          "1年以内": 3
+        },
+        "keywords": [
+          "测试工程师"
+        ]
+      }
+    },
+    {
+      "direction": "数据分析",
+      "intern": {
+        "postings": 102,
+        "daily": {
+          "n": 81,
+          "p25": 115.0,
+          "median": 140.0,
+          "p75": 175.0,
+          "max": 436.8
+        },
+        "month": {
+          "n": 82,
+          "p25": 2500,
+          "median": 3045,
+          "p75": 3806,
+          "max": 9500
+        },
+        "keywords": [
+          "boss_wuhan_data"
+        ]
+      },
+      "fulltime": {
+        "postings": 92,
+        "month": {
+          "n": 90,
+          "p25": 9500,
+          "median": 12500,
+          "p75": 18000,
+          "max": 50000
+        },
+        "by_experience": {
+          "3-5年": 30,
+          "1-3年": 24,
+          "经验不限": 16,
+          "5-10年": 14,
+          "1年以内": 4,
+          "在校/应届": 3
+        },
+        "keywords": [
+          "数据分析师"
+        ]
+      }
+    },
+    {
+      "direction": "后端",
+      "intern": {
+        "postings": 83,
+        "daily": {
+          "n": 52,
+          "p25": 135.0,
+          "median": 167.5,
+          "p75": 225.0,
+          "max": 942.5
+        },
+        "month": {
+          "n": 62,
+          "p25": 3000,
+          "median": 3806,
+          "p75": 5500,
+          "max": 30500
+        },
+        "keywords": [
+          "boss_wuhan_backend"
+        ]
+      },
+      "fulltime": {
+        "postings": 78,
+        "month": {
+          "n": 78,
+          "p25": 12000,
+          "median": 14500,
+          "p75": 19500,
+          "max": 47500
+        },
+        "by_experience": {
+          "3-5年": 30,
+          "5-10年": 29,
+          "1-3年": 11,
+          "经验不限": 4,
+          "不限": 2,
+          "10年以上": 1
+        },
+        "keywords": [
+          "后端开发"
+        ]
+      }
+    },
+    {
+      "direction": "运维",
+      "intern": {
+        "postings": 28,
+        "daily": {
+          "n": 0
+        },
+        "month": {
+          "n": 0
+        },
+        "keywords": [
+          "boss_wuhan_ops"
+        ]
+      },
+      "fulltime": {
+        "postings": 114,
+        "month": {
+          "n": 114,
+          "p25": 6500,
+          "median": 8000,
+          "p75": 10000,
+          "max": 37500
+        },
+        "by_experience": {
+          "1-3年": 39,
+          "3-5年": 32,
+          "经验不限": 20,
+          "5-10年": 14,
+          "在校/应届": 5,
+          "1年以内": 2
+        },
+        "keywords": [
+          "运维工程师"
+        ]
+      }
+    }
+  ]
+}

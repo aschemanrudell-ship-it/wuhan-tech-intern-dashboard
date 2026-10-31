@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>武汉计算机实习招聘需求可视化平台 · 本地数据看板</title>
+<link rel="stylesheet" href="style.css">
+<!-- 图表库优先加载本地文件（部署到境外服务器时不依赖 CDN 连通性），缺失再回退 CDN -->
+<script src="vendor/echarts.min.js"></script>
+<script>
+  (function () {
+    if (window.echarts) return;
+    var cdns = [
+      'https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js',
+      'https://unpkg.com/echarts@5.5.1/dist/echarts.min.js',
+      'https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js'
+    ];
+    for (var i = 0; i < cdns.length; i++) {
+      document.write('<script src="' + cdns[i] + '"><\/script>');
+      if (window.echarts) break;
+    }
+  })();
+</script>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">WH</div>
+      <div>
+        <h1>武汉计算机实习招聘需求看板</h1>
+        <p class="sub">Python / Java 需求与薪资对比 · 数据来自智联招聘 / 实习僧 / 猎聘 的本次抓取快照</p>
+      </div>
+    </div>
+    <div class="freshness" id="freshness">数据加载中…</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="kpi-row" id="kpiRow"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>① 数据来源与方法</h2>
+      <span class="hint" id="sourceHint"></span>
+    </div>
+    <div class="method-grid" id="methodGrid"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>② 技术方向需求对比</h2>
+      <span class="hint">同一时段快照内的实习岗位数，含技术栈交叉命中</span>
+    </div>
+    <div class="two-col">
+      <div id="chartStack" class="chart tall"></div>
+      <div id="chartPlatform" class="chart tall"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>③ 方向成长对比：实习入口 → 正式岗</h2>
+      <span class="hint">回答"选哪个方向不会白走"：左侧对比各方向的实习岗量与该方向正式岗量，右侧对比实习折月薪与正式岗月薪（正式工数据来自 BOSS直聘同方向社招/校招岗位）</span>
+    </div>
+    <div class="two-col">
+      <div id="chartTracks" class="chart tall"></div>
+      <div id="chartTracksGrowth" class="chart tall"></div>
+    </div>
+    <div id="tracksTable" class="mini-table"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>④ 平台库存量对比（同平台同口径）</h2>
+      <span class="hint">BOSS直聘取接口返回的 resCount（该词在武汉的真实结果总数）；智联取页面 positionCount —— 这类数字不随我们翻了几页而变，最适合做需求对比</span>
+    </div>
+    <div class="two-col">
+      <div id="chartInventory" class="chart"></div>
+      <div id="inventoryTable" class="mini-table"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑤ 薪资分析（元/天）</h2>
+      <span class="hint">仅统计「元/天」口径的实习岗位，月薪岗位按 21.75 个工作日折算；正式/校招岗（K/月）单独统计</span>
+    </div>
+    <div class="two-col">
+      <div id="chartSalaryDist" class="chart"></div>
+      <div id="chartSalaryStack" class="chart"></div>
+    </div>
+    <div id="salaryTable" class="mini-table"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑥ 学历要求与实习时间安排</h2>
+      <span class="hint">学历取岗位标注；实习时长取任职要求中的每周天数 / 总月数（实习僧岗位数据更完整）</span>
+    </div>
+    <div class="two-col">
+      <div id="chartDegree" class="chart"></div>
+      <div id="chartWeeks" class="chart"></div>
+    </div>
+    <div id="durationTable" class="mini-table"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑦ 公司分布与热门技能标签</h2>
+      <span class="hint">技能标签来自招聘方填写的岗位标签 / 技能需求字段</span>
+    </div>
+    <div class="two-col">
+      <div id="chartCompanies" class="chart"></div>
+      <div id="chartTags" class="chart"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑧ 企业端画像（BOSS直聘公司页）</h2>
+      <span class="hint">在招职位数 / 招聘者数量 / 规模 / 融资阶段 取自 BOSS直聘企业主页，按本次抓到的实习岗位反查</span>
+    </div>
+    <div class="two-col">
+      <div id="chartCompanySize" class="chart"></div>
+      <div id="chartCompanyOpen" class="chart tall"></div>
+    </div>
+    <div class="two-col" style="margin-top:12px">
+      <div id="chartCompanyStage" class="chart"></div>
+      <div id="chartCompanyIndustry" class="chart"></div>
+    </div>
+    <div id="companyTable" class="mini-table"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>⑨ 岗位明细（可筛选）</h2>
+      <span class="hint" id="tableCount"></span>
+    </div>
+    <div class="filters">
+      <select id="fSource"><option value="">全部来源</option></select>
+      <select id="fStack"><option value="">全部方向</option></select>
+      <select id="fDegree"><option value="">全部学历</option></select>
+      <input id="fQ" type="search" placeholder="搜索岗位 / 公司关键词…">
+      <label class="chk"><input type="checkbox" id="fSalaryOnly"> 仅有明码薪资</label>
+    </div>
+    <div class="table-wrap">
+      <table id="jobTable">
+        <thead>
+          <tr>
+            <th data-sort="title">岗位</th>
+            <th data-sort="company">公司</th>
+            <th data-sort="salary" class="num">薪资</th>
+            <th data-sort="daypay" class="num">日薪(元)</th>
+            <th data-sort="stacks">技术方向</th>
+            <th data-sort="degree">学历</th>
+            <th data-sort="district">区域</th>
+            <th data-sort="source">来源</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>⑩ 结论与建议</h2></div>
+    <div id="insightList" class="insights"></div>
+  </section>
+
+  <footer class="foot">
+    <span id="footNote">本地看板 · 数据快照由本次抓取生成</span>
+  </footer>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

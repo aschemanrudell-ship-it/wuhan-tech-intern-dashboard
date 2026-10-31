@@ -1,0 +1,544 @@
+{
+  "profiles_collected": 84,
+  "companies_hiring_interns": 608,
+  "total_open_jobs": 22953,
+  "top_by_intern_roles": [
+    {
+      "company": "华为技术有限公司",
+      "open_jobs": 107,
+      "bosses": 46,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "咨询服务",
+      "intern_roles": 13,
+      "intern_titles": [
+        "AI/算法/通软/网络安全/数据",
+        "结构与材料工程师（实习生）",
+        "[26应届][武汉]后端开发工程师"
+      ],
+      "url": "https://www.zhipin.com/job_detail/38c636296e90dfa103x_2928GVRQ.html"
+    },
+    {
+      "company": "华为",
+      "open_jobs": 10000,
+      "bosses": 5626,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "汽车",
+      "intern_roles": 12,
+      "intern_titles": [
+        "华为2027实习生-前端开发工程师",
+        "通用软件开发工程师",
+        "【秋招】华为软开/算法 招聘"
+      ],
+      "url": "https://www.zhipin.com/job_detail/31e4262704c5dec70nZ-3tW5EVJW.html"
+    },
+    {
+      "company": "小米",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 9,
+      "intern_titles": [
+        "顶尖应届-AI能耗优化算法工程师",
+        "车载音频算法验证与调音工程师",
+        "顶尖应届-具身智能算法工程师-生态链"
+      ],
+      "url": "https://www.zhipin.com/job_detail/fbc7dc986c1c68390nFz3dy0E1NU.html"
+    },
+    {
+      "company": "金山云",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 9,
+      "intern_titles": [
+        "ai算法实习生",
+        "后端开发工程师",
+        "研发实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/f856287c9410b4d30nx60tm5EVVZ.html"
+    },
+    {
+      "company": "精臣",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "不需要融资",
+      "industry": "",
+      "intern_roles": 9,
+      "intern_titles": [
+        "后端开发工程师（27届毕业生）",
+        "薪酬绩效实习生（校招）",
+        "软件测试实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/2429d7e54b40269f0nNz0tu5GFJV.html"
+    },
+    {
+      "company": "绿盟科技",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 9,
+      "intern_titles": [
+        "Linux 开发实习生",
+        "【2027届校招】秋招研发工程师-C/C++ 武汉",
+        "web前端实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/cbc79081b4009aac03Jz3tS9ElNQ.html"
+    },
+    {
+      "company": "华为云计算",
+      "open_jobs": 78,
+      "bosses": 33,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "",
+      "intern_roles": 7,
+      "intern_titles": [
+        "其他后端开发",
+        "后端开发实习生",
+        "软件开发工程师（AI实习）"
+      ],
+      "url": "https://www.zhipin.com/job_detail/990816f4109c317f03J90tu9FVRW.html"
+    },
+    {
+      "company": "岚图汽车",
+      "open_jobs": 449,
+      "bosses": 62,
+      "size": "1000-9999人",
+      "stage": "",
+      "industry": "汽车",
+      "intern_roles": 6,
+      "intern_titles": [
+        "座舱测试实习生",
+        "人工智能算法工程师（博士） (MJ001046)",
+        "端到端算法工程师（博士） (MJ001049)"
+      ],
+      "url": "https://www.zhipin.com/job_detail/8b0cfd21f0ad610d03x73Nq7GFpX.html"
+    },
+    {
+      "company": "开目信息股份",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "500-999人",
+      "stage": "不需要融资",
+      "industry": "",
+      "intern_roles": 6,
+      "intern_titles": [
+        "c++开发实习生",
+        "Java后端开发实习生",
+        "前端开发工程师实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/663008266208d77b0nJz3ty4FlJQ.html"
+    },
+    {
+      "company": "阿里巴巴集团",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 6,
+      "intern_titles": [
+        "蚂蚁保险校招实习生（前端测试开发算法）",
+        "(工作地:杭州)2022年校招实习生-JAVA/C/C++",
+        "急聘 应届校招 25年毕业java实习生 可转正"
+      ],
+      "url": "https://www.zhipin.com/job_detail/f3ec1a51376eb8dd1nBy09S1F1ZS.html"
+    },
+    {
+      "company": "腾讯",
+      "open_jobs": 2082,
+      "bosses": 1267,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "互联网",
+      "intern_roles": 5,
+      "intern_titles": [
+        "后端开发",
+        "性能测试实习岗（腾娱子公司）",
+        "前端开发"
+      ],
+      "url": "https://www.zhipin.com/job_detail/39745d1af489f0d603xy3NS-FFtV.html"
+    },
+    {
+      "company": "达梦数据库",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 5,
+      "intern_titles": [
+        "博士研究员",
+        "研发工程师（C/C++ 武汉）",
+        "博士研究员"
+      ],
+      "url": "https://www.zhipin.com/job_detail/dcc459ce22c27d241HR-2d29FltU.html"
+    },
+    {
+      "company": "上海能良",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "未融资",
+      "industry": "",
+      "intern_roles": 5,
+      "intern_titles": [
+        "算法工程师（J03514）",
+        "java开发工程师/后端--校招（J03700）",
+        "前端开发工程师-校招生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/24480ba2974170e70nJz09q1GVFX.html"
+    },
+    {
+      "company": "小药药",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "1000-9999人",
+      "stage": "D轮及以上",
+      "industry": "",
+      "intern_roles": 5,
+      "intern_titles": [
+        "Agent 开发实习生",
+        "软件测试实习生",
+        "web前端实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/cd92f954657b88910nJ93NW1FFJU.html"
+    },
+    {
+      "company": "小米科技",
+      "open_jobs": 0,
+      "bosses": 0,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "",
+      "intern_roles": 5,
+      "intern_titles": [
+        "大数据产品经理实习生（实习6个月以上）",
+        "【26届应届】大数据平台产品经理",
+        "Web前端实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/8ca9e54490a1cfe003160t60FVBV.html"
+    }
+  ],
+  "top_by_open_jobs": [
+    {
+      "company": "华为",
+      "open_jobs": 10000,
+      "bosses": 5626,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "汽车",
+      "intern_roles": 12,
+      "intern_titles": [
+        "华为2027实习生-前端开发工程师",
+        "通用软件开发工程师",
+        "【秋招】华为软开/算法 招聘"
+      ],
+      "url": "https://www.zhipin.com/job_detail/31e4262704c5dec70nZ-3tW5EVJW.html"
+    },
+    {
+      "company": "法本",
+      "open_jobs": 2968,
+      "bosses": 476,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "大数据",
+      "intern_roles": 1,
+      "intern_titles": [
+        "Java管培生（汽车产品线）"
+      ],
+      "url": "https://www.zhipin.com/job_detail/e9d037160a75bc030nNy3NS4E1NV.html"
+    },
+    {
+      "company": "华勤技术股份有限公司",
+      "open_jobs": 2713,
+      "bosses": 943,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "互联网",
+      "intern_roles": 1,
+      "intern_titles": [
+        "测试实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/09b852a30d74ca2f03B_2NW9ElRV.html"
+    },
+    {
+      "company": "腾讯",
+      "open_jobs": 2082,
+      "bosses": 1267,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "互联网",
+      "intern_roles": 5,
+      "intern_titles": [
+        "后端开发",
+        "性能测试实习岗（腾娱子公司）",
+        "前端开发"
+      ],
+      "url": "https://www.zhipin.com/job_detail/39745d1af489f0d603xy3NS-FFtV.html"
+    },
+    {
+      "company": "中科创达",
+      "open_jobs": 1272,
+      "bosses": 253,
+      "size": "10000人以上",
+      "stage": "已上市",
+      "industry": "汽车",
+      "intern_roles": 1,
+      "intern_titles": [
+        "测试实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/d3533dbaadb8a8bf0nx60966ElBS.html"
+    },
+    {
+      "company": "360集团",
+      "open_jobs": 675,
+      "bosses": 70,
+      "size": "1000-9999人",
+      "stage": "D轮及以上",
+      "industry": "互联网",
+      "intern_roles": 3,
+      "intern_titles": [
+        "AI安全社区及社群运营实习生",
+        "AI应用开发实习生（武汉）-5047(J12474)",
+        "安全研究实习生（漏洞分析)（武汉)(J12412)"
+      ],
+      "url": "https://www.zhipin.com/job_detail/7a925f0e137fd16f0nN82N66FltX.html"
+    },
+    {
+      "company": "软通动力",
+      "open_jobs": 661,
+      "bosses": 153,
+      "size": "1000-9999人",
+      "stage": "不需要融资",
+      "industry": "",
+      "intern_roles": 1,
+      "intern_titles": [
+        "上市公司自研-Java开发实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/f102fbae7fab6c010nN73tS-ElZW.html"
+    },
+    {
+      "company": "岚图汽车",
+      "open_jobs": 449,
+      "bosses": 62,
+      "size": "1000-9999人",
+      "stage": "",
+      "industry": "汽车",
+      "intern_roles": 6,
+      "intern_titles": [
+        "座舱测试实习生",
+        "人工智能算法工程师（博士） (MJ001046)",
+        "端到端算法工程师（博士） (MJ001049)"
+      ],
+      "url": "https://www.zhipin.com/job_detail/8b0cfd21f0ad610d03x73Nq7GFpX.html"
+    },
+    {
+      "company": "三维天地",
+      "open_jobs": 336,
+      "bosses": 23,
+      "size": "1000-9999人",
+      "stage": "不需要融资",
+      "industry": "大数据",
+      "intern_roles": 1,
+      "intern_titles": [
+        "实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/bb27dbb0a748570c03J93dS4FVZX.html"
+    },
+    {
+      "company": "传神语联网",
+      "open_jobs": 279,
+      "bosses": 41,
+      "size": "500-999人",
+      "stage": "已上市",
+      "industry": "人工智能",
+      "intern_roles": 1,
+      "intern_titles": [
+        "人工智能研发实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/a2a50733275581ef03Ny3Ny1F1pU.html"
+    },
+    {
+      "company": "武汉联影智融",
+      "open_jobs": 179,
+      "bosses": 69,
+      "size": "1000-9999人",
+      "stage": "不需要融资",
+      "industry": "医疗健康",
+      "intern_roles": 1,
+      "intern_titles": [
+        "硬件测试工程师（实习岗）"
+      ],
+      "url": "https://www.zhipin.com/job_detail/e23abc461a37c63b03V62du9GVdV.html"
+    },
+    {
+      "company": "海微科技",
+      "open_jobs": 152,
+      "bosses": 15,
+      "size": "1000-9999人",
+      "stage": "B轮",
+      "industry": "汽车",
+      "intern_roles": 2,
+      "intern_titles": [
+        "AI应用实习生（人力资源&行政管理项目）",
+        "产品实习生（企业信息化系统）"
+      ],
+      "url": "https://www.zhipin.com/job_detail/cdb48bae6b2293a80nB83dW5E1RX.html"
+    },
+    {
+      "company": "字节跳动",
+      "open_jobs": 140,
+      "bosses": 72,
+      "size": "10000人以上",
+      "stage": "D轮及以上",
+      "industry": "",
+      "intern_roles": 1,
+      "intern_titles": [
+        "前端开发实习生"
+      ],
+      "url": "https://www.zhipin.com/job_detail/e4bde366e03ace9b03B-2Ni0GFZQ.html"
+    },
+    {
+      "company": "澄迈县澄迈县海南优矩科技有限公司",
+      "open_jobs": 110,
+      "bosses": 21,
+      "size": "1000-9999人",
+      "stage": "已上市",
+      "industry": "金融",
+      "intern_roles": 4,
+      "intern_titles": [
+        "AI 仿真人短剧「剪辑实习生」",
+        "广告运营实习生（双休+上市公司）",
+        "小红书内容运营实习生（双休）"
+      ],
+      "url": "https://www.zhipin.com/job_detail/1b90a896a574a58b0nx62Ni_GFNU.html"
+    },
+    {
+      "company": "华为技术有限公司",
+      "open_jobs": 107,
+      "bosses": 46,
+      "size": "10000人以上",
+      "stage": "不需要融资",
+      "industry": "咨询服务",
+      "intern_roles": 13,
+      "intern_titles": [
+        "AI/算法/通软/网络安全/数据",
+        "结构与材料工程师（实习生）",
+        "[26应届][武汉]后端开发工程师"
+      ],
+      "url": "https://www.zhipin.com/job_detail/38c636296e90dfa103x_2928GVRQ.html"
+    }
+  ],
+  "size_dist": [
+    [
+      "20-99人",
+      152
+    ],
+    [
+      "100-499人",
+      142
+    ],
+    [
+      "0-20人",
+      109
+    ],
+    [
+      "1000-9999人",
+      99
+    ],
+    [
+      "10000人以上",
+      56
+    ],
+    [
+      "500-999人",
+      47
+    ]
+  ],
+  "stage_dist": [
+    [
+      "不需要融资",
+      144
+    ],
+    [
+      "未融资",
+      140
+    ],
+    [
+      "已上市",
+      86
+    ],
+    [
+      "A轮",
+      37
+    ],
+    [
+      "天使轮",
+      32
+    ],
+    [
+      "B轮",
+      29
+    ],
+    [
+      "D轮及以上",
+      15
+    ],
+    [
+      "C轮",
+      14
+    ]
+  ],
+  "industry_dist": [
+    [
+      "大数据",
+      7
+    ],
+    [
+      "人工智能",
+      7
+    ],
+    [
+      "互联网",
+      5
+    ],
+    [
+      "汽车",
+      4
+    ],
+    [
+      "金融",
+      4
+    ],
+    [
+      "咨询服务",
+      3
+    ],
+    [
+      "游戏",
+      3
+    ],
+    [
+      "电子商务",
+      1
+    ],
+    [
+      "IT服务",
+      1
+    ],
+    [
+      "医疗健康",
+      1
+    ]
+  ]
+}
